@@ -14,8 +14,8 @@ if lsa != 2:
 try:
     minutes = int(sa[1])
 except ValueError:
-    print ("Invalid numeric value %s for minutes") % sa[1]
-    print ("Should be an integer >= 0")
+    print(f"Invalid numeric value {sa[1]} for minutes")
+    print("Should be an integer >= 0")
     sys.exit(1)
 
 if minutes < 0:
